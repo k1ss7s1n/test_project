@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+/**
+ * Caudalie Widgets di.xml
+ *
+ * @category  Caudalie
+ * @package   Caudalie\Widgets
+ * @author    Bohdan Chernyk <boche@smile.fr>
+ * @copyright 2017 Smile
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Widget\Model\Widget">
+        <plugin name="imagechooser" type="Caudalie\Widgets\Model\Widget" sortOrder="1" disabled="false"/>
+    </type>
+</config>

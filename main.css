@@ -16,8 +16,28 @@ header {
 	width: 1180px;
 	margin: 0 auto;
 }
+header.leva-chlen nav {
+display: block
+}
+ul{
+	list-style: none;
+}
+button{
+	background: 0;
+	border:0;
+	color: #fff;
+}
+.nav-btn{
+	position: absolute;
+	right: 210px;
+	top: 50px;
+}
+nav{
+	display: none;
+}
 .logo {
 	margin-top: 21px;
+	margin-right: 100px;
 	float: left;
 }
 .menu{
@@ -25,11 +45,44 @@ header {
 	font-size: 14px;
 	text-transform: uppercase;
 	float: right;
+	margin-top: 50px;
 }
-ul{
-	list-style: none;
-}
-.menu a{
+.menu li{
+	display: inline;
 	margin-right: 30px;
-	
+}
+.titles{
+	position: absolute;
+	text-align: center;
+	margin: 280px 400px
+}
+.titles h3{
+	font-family: TNRBoldItalic;
+	font-size: 36px;
+	color: #e0d7d8;
+}
+.titles h1{
+	font-family: LatoBold;
+	font-size: 100px;
+	color: #fff;
+	text-transform: uppercase;
+	margin: 0 auto;
+}
+.button{
+	font-family: LatoBold;
+	font-size: 14px;
+	text-transform: uppercase;
+	width: 281px;
+	border: 3px solid #fff;
+	border-radius: 3px;
+	display: block;
+	margin:40px auto;
+	padding: 23px 0;
+}
+.titles p{
+	font-family: Regular, LatoBold;
+	font-size: 14px;
+	color:#fff;
+	text-transform: uppercase;
+	margin-bottom: 1px;
 }

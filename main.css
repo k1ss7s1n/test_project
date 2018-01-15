@@ -40,7 +40,7 @@ button{
 .nav-btn{
 	position: absolute;
 	right: 0px;
-	top: 50px;
+	top: 47px;
 }
 nav{
 	display: none;
@@ -57,9 +57,13 @@ nav{
 	float: right;
 	margin-top: 50px;
 }
+
 .menu li{
 	display: inline;
 	margin-right: 30px;
+}
+.menu a:hover{
+	opacity: 0.8;
 }
 .titles{
 	margin-top: 200px;
@@ -87,6 +91,10 @@ nav{
 	display: block;
 	margin:40px auto;
 	padding: 23px 0;
+}
+.button:hover{
+	box-shadow: 0 0 103px rgba(0,0,0,0.5);
+	
 }
 .titles p{
 	font-family: Regular, LatoBold;

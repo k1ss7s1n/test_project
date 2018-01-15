@@ -13,7 +13,8 @@ a{
 	
 }
 header {
-	width: 1180px;
+	width: 100%;
+	max-width: 1180px;
 	margin: 0 auto;
 }
 header.leva-chlen nav {
